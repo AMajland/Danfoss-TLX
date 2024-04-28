@@ -81,3 +81,7 @@ _The project can be used with other ESP32 boards._
 R411A01 mini 3.3V Auto RS485 to TTL232 Converter Board: [AliExpress](https://www.aliexpress.com/item/32782552104.html)
 
 _You can use other RS485 to TTL232 boards._
+
+## Details about RS485 and ComLynx
+
+Kindly check the `Assets` folder for more info. Here you'll find `ComLynx_User_Guide_16_20120817_A7.pdf`, a guide to accessing inverter parameters via RS485 using ComLynx protocol. The file are originally made by Danfoss.
