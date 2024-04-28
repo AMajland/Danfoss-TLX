@@ -4,7 +4,9 @@ RS485 Communication with Danfoss TLX solar inverter and REST server. Based on [T
 
 I use it for Home Assistant integration where each parameter/value can be read as a sensor.
 
-See DanfossTLX-RS485.h for parameters
+See DanfossTLX-RS485.h for parameters.
+
+[@exetico](https://github.com/exetico) have added support for Platform.io, and I'll recommend you to start with that, instead of the (a bit) aging Arduno IDE software.
 
 ```yaml
 sensor:
