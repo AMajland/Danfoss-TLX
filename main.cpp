@@ -215,6 +215,9 @@ void loop()
   static unsigned long TimeTLX = millis();
   static unsigned long TimePrint = millis();
 
+  // Handle OTA
+  ArduinoOTA.handle();
+
   server.handleClient();
 
   // Wraparround every ~50 days;
