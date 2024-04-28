@@ -47,9 +47,9 @@ So instead of having each value returned in a seperat call i've added them all i
             ...
 ```
 
-Board LOLIN D32: [AliExpres](https://www.aliexpress.com/item/32808551116.htm)
-Pin 16 :RXD2 Seriel in
-Pin 17 :TXD2 Seriel out
+For this project, I'll use pin 16 for RX (Serial2), and pin 17 for TX (Serial2).
+
+If you face any problems with the communication between the Danfoss device and the ESP, try and swap TX and RX.
 
 ## Libraries
 
@@ -76,7 +76,7 @@ With that said, try and rename the `main.ccp` file to `main.ino`.
 
 ## BOM
 
-Board LOLIN D32 (ESP32): [AliExpres](https://www.aliexpress.com/item/32808551116.htm)
+LOLIN D32 (ESP32): [AliExpres](https://www.aliexpress.com/item/32808551116.htm)
 
 _The project can be used with other ESP32 boards._
 
