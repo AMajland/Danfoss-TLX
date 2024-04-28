@@ -62,6 +62,10 @@ Using library FS at version 2.0.0 in folder: ...\packages\esp32\hardware\esp32\2
 
 ## How to use
 
+### Platform.io
+
+Open the project, and do whatever you'd normally do with Platform.io. Here you're also able to use OTA updates in the future, after the first flash by USB.
+
 ### Arduino IDE
 
 Secure that you've downloaded the libs, and use the source-code from the `src` folder.
@@ -69,10 +73,6 @@ Secure that you've downloaded the libs, and use the source-code from the `src` f
 If you face any problems with compiling with Arduino IDE, kindly give Platform.io a try in VS Code.
 
 With that said, try and rename the `main.ccp` file to `main.ino`.
-
-### Platform.io
-
-Open the project, and do whatever you'd normally do with Platform.io. Here you're also able to use OTA updates in the future, after the first flash by USB.
 
 ## BOM
 
